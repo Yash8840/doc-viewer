@@ -1,0 +1,40 @@
+.nav-content {
+  display: inline-block;
+  align-items: center;
+  background: #12151c;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.nav-logo {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+.menu-list {
+  position: relative;
+  display: inline-block;
+  min-width: 300px;
+  text-align: right;
+  right: 5px;
+  height: 120px;
+  float: right;
+}
+.menu-list ul#menu {
+  position: relative;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95px;
+}
+#menu li {
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0 0.3vh;
+}
+#menu li a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 600;
+}
